@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliar usado | Nexum Games</title>
+    <meta name="description" content="Avaliação de jogos e consoles usados na Nexum Games.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="topline" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+        <div class="site-header__inner">
+            <a href="index.html" class="logo" aria-label="Nexum Games — página inicial">
+                <span class="logo__n">N</span>ex<span class="logo__u">u</span>m <span class="logo__games">Games</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav" id="siteNav">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="index.html">Início</a></li>
+                    <li><a class="nav__link" href="loja.html">Loja</a></li>
+                    <li><a class="nav__link" href="consoles.html">Consoles</a></li>
+                    <li><a class="nav__link nav__link--active" href="avaliacao.html">Avaliar usado</a></li>
+                    <li><a class="nav__link" href="sobre.html">Sobre</a></li>
+                    <li><a class="nav__link" href="contato.html">Contato</a></li>
+                </ul>
+                <div class="nav__actions">
+                    <a href="login.html" class="btn btn--ghost">Entrar</a>
+                    <a href="criar-conta.html" class="btn btn--primary">Crie sua conta</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero page-hero--compact">
+            <div class="page-hero__inner">
+                <p class="section-eyebrow">Avaliação</p>
+                <h1 class="section-title section-title--left">Avalie seu game usado</h1>
+                <p class="page-hero__lead">Informe o item, o estado e o valor estimado. Nossa equipe analisa a condição antes de fechar uma compra.</p>
+            </div>
+        </section>
+
+        <section class="content-panel">
+            <div class="content-panel__inner content-panel__grid">
+                <div class="info-card">
+                    <h3>Como funciona</h3>
+                    <ul>
+                        <li>Você informa nome do item e condição</li>
+                        <li>Detalha se há caixa, manual ou acessório</li>
+                        <li>Recebe uma avaliação rápida e transparente</li>
+                    </ul>
+                </div>
+
+                <form class="form-panel">
+                    <label>
+                        Produto
+                        <input type="text" placeholder="Ex.: Final Fantasy VII">
+                    </label>
+                    <label>
+                        Plataforma
+                        <input type="text" placeholder="Ex.: PS1, SNES, Switch">
+                    </label>
+                    <label>
+                        Estado
+                        <select>
+                            <option>Excelente</option>
+                            <option>Bom</option>
+                            <option>Regular</option>
+                            <option>Precisa de restauração</option>
+                        </select>
+                    </label>
+                    <label>
+                        Observações
+                        <textarea rows="4" placeholder="Descreva arranhões, caixa, manual e acessórios..."></textarea>
+                    </label>
+                    <button type="submit" class="btn btn--primary btn--block">Enviar avaliação</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <div class="site-footer__brand">
+                <a href="index.html" class="logo logo--small" aria-label="Nexum Games — página inicial">
+                    <span class="logo__n">N</span>ex<span class="logo__u">u</span>m <span class="logo__games">Games</span>
+                </a>
+                <p class="site-footer__tagline">Jogos físicos. Memórias reais.</p>
+            </div>
+            <div class="site-footer__cols">
+                <div>
+                    <p class="site-footer__col-title">Loja</p>
+                    <ul class="site-footer__links">
+                        <li><a href="loja.html">Todos os jogos</a></li>
+                        <li><a href="consoles.html">Consoles</a></li>
+                        <li><a href="criar-conta.html">Crie sua conta</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="site-footer__col-title">Institucional</p>
+                    <ul class="site-footer__links">
+                        <li><a href="sobre.html">Sobre nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer__bottom">
+            <p class="site-footer__copy">&copy; 2026 Nexum Games. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
